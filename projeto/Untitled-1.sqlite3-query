@@ -1,0 +1,7 @@
+-- database: ./db.sqlite3
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM loja_informatica_produto;
+INSERT INTO loja_informatica_produto(nome, preco, descricao, estoque)
+VALUES ('Notebook', 2000.0, 'Notebook Dell', 10)
